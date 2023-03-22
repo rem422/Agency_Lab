@@ -77,10 +77,8 @@ section hr {
     height: auto;
 }
 
-.services_header,
-.products_header,
-.study_header,
-.about_header,
+.services_header, .products_header,
+.study_header, .about_header,
 .contact_header {
     max-width: 315px;
     width: 100%;
@@ -843,6 +841,13 @@ section hr {
     display: block;
     width: 100%;
 }
+.hero_wrapper .hero_img_wrapper,
+.services_wrapper .services_img_wrapper,
+.products_wrapper .products_img_wrapper,
+.contact_wrapper .contact_img_wrapper{
+    max-width: 100%;
+}
+
 
 }
 
@@ -893,6 +898,11 @@ section hr {
 }
 
 @media (max-width:500px) {
+    /* Global Styling */
+.study_info .study_info_header,
+.about_left .about_left_header {
+    font-size: 1.2rem;
+}
 
 .hero_info .hero_info_title {
     font-size: 1.5rem;
@@ -935,7 +945,6 @@ section hr {
 .services_cards {
     grid-template-columns: 100%;
 }
-
 
 /* Services Section  */
 .contact_wrapper .contact_right form .name{
