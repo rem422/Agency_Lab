@@ -934,6 +934,15 @@ section hr {
         font-size: 1.5rem;
     }
 
+    /* Overflow Section Styling */
+    .overview_wrapper {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+
 /* Services Section  */
 .services_cards {
     grid-template-columns: 100%;
