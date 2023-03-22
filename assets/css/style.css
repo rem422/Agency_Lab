@@ -249,7 +249,7 @@ section hr {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .overview_link {
@@ -698,6 +698,14 @@ section hr {
 }
 
 @media (max-width: 960px) {
+    /* Global Styling */
+.hero_wrapper .hero_img_wrapper,
+.services_wrapper .services_img_wrapper,
+.products_wrapper .products_img_wrapper,
+.contact_wrapper .contact_img_wrapper{
+    max-width: 100%;
+}
+
 /* mobile menu btn */
     .menu-btn{
         display: block;
@@ -770,10 +778,6 @@ section hr {
     justify-content: center;
 }
 
-.services_wrapper .services_img_wrapper {
-    max-width: 100%;
-}
-
 .services_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -833,22 +837,10 @@ section hr {
     gap: 2rem;
 }
 
-.contact_wrapper .contact_img_wrapper {
-    max-width: 100%;
-}
-
 .contact_wrapper .contact_right form .name{
     display: block;
     width: 100%;
 }
-.hero_wrapper .hero_img_wrapper,
-.services_wrapper .services_img_wrapper,
-.products_wrapper .products_img_wrapper,
-.contact_wrapper .contact_img_wrapper{
-    max-width: 100%;
-}
-
-
 }
 
 @media (max-width: 768px) {
@@ -857,7 +849,8 @@ section hr {
         display: block;
         align-items: center;
         justify-content: center;
-        padding-top: 2rem;
+        /* padding-top: 2rem; */
+        gap: 0;
     }
 
 /* Services Section  */
