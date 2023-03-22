@@ -1,24 +1,24 @@
 /*MOBILE MENU*/
 const menuBtn = document.querySelector('.navbar .menu-btn i');
-const mobileMenu = document.querySelector('.navbar .nav_menu')
-const menuItems = document.querySelectorAll('.navbar .nav_menu .nav_link a')
+const mobileMenu = document.querySelector('.navbar .nav_menu');
+const menuItems = document.querySelectorAll('.navbar .nav_menu a');
 
 menuBtn.addEventListener('click', () => {
-    menuBtn.classList.toggle('active')
-    mobileMenu.classList.toggle('active')
+    menuBtn.classList.toggle('active');
+    mobileMenu.classList.toggle('active');
 });
 
 menuItems.forEach(item => {
     item.addEventListener('click', () => {
-        menuBtn.classList.toggle('active')
-        mobileMenu.classList.toggle('active')
+        menuBtn.classList.toggle('active');
+        mobileMenu.classList.toggle('active');
     })
 })
 /*END OF MOBILE MENU*/
 
 
 /*NAVBAR SHADOW & SCROLL TO TOP BTN*/
-const navbar = document.querySelector('.navbar')
+const navbar = document.querySelector('.navbar');
 const scrollTopBtn = document.querySelector('.scroll-up-btn');
 
 document.addEventListener('scroll', () => {
