@@ -76,6 +76,17 @@ section hr {
     max-width: 100%;
     height: auto;
 }
+
+.services_header,
+.products_header,
+.study_header,
+.about_header,
+.contact_header {
+    max-width: 315px;
+    width: 100%;
+    text-align: center;
+    margin: 3rem auto;
+}
  /* End of Global Styling */
 
 /* scroll to top btn */
@@ -273,16 +284,7 @@ section hr {
     left: 0rem;
 }
 
-
-
 /* Services Section Styling */
-.services_header {
-    max-width: 315px;
-    width: 100%;
-    text-align: center;
-    margin: 3rem auto;
-}
-
 .services_header .services_title {
     margin-bottom: .6rem;
 }
@@ -334,13 +336,6 @@ section hr {
 
 
 /* Products Section Styling */
-.products_header {
-    max-width: 315px;
-    width: 100%;
-    text-align: center;
-    margin: 3rem auto;
-}
-
 .products_header .products_title {
     margin-bottom: .6rem;
 }
@@ -396,13 +391,6 @@ section hr {
 }
 
 /* Study Section Styling */
-.study_header {
-    max-width: 315px;
-    width: 100%;
-    text-align: center;
-    margin: 3rem auto;
-}
-
 .study_wrapper {
     display: flex;
     align-items: center;
@@ -475,13 +463,6 @@ section hr {
 }
 
 /* About Section Styling */
-.about_header {
-    max-width: 315px;
-    width: 100%;
-    text-align: center;
-    margin: 3rem auto;
-}
-
 .about_wrapper {
     display: flex;
     align-items: center;
@@ -517,13 +498,6 @@ section hr {
 }
 
 /* Contact Section Styling */
-.contact_header {
-    max-width: 315px;
-    width: 100%;
-    text-align: center;
-    margin: 3rem auto;
-}
-
 .contact_wrapper {
     display: flex;
     align-items: center;
