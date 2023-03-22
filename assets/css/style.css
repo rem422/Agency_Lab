@@ -38,6 +38,7 @@ body{
     font-size: 1.6rem;
     color: var(--black);
     font-family: var(--font-lora);
+    font-weight: 600;
 }
 
 h1, h2, h3{
@@ -59,6 +60,21 @@ section{
 
 section hr {
     margin-top: 2rem;
+}
+
+.hero_wrapper .hero_img_wrapper,
+.services_wrapper .services_img_wrapper,
+.products_wrapper .products_img_wrapper,
+.contact_wrapper .contact_img_wrapper{
+    max-width: 670px;
+}
+
+.hero_wrapper .hero_img_wrapper img,
+.services_wrapper .services_img_wrapper img,
+.products_wrapper .products_img_wrapper img,
+.contact_wrapper .contact_img_wrapper img {
+    max-width: 100%;
+    height: auto;
 }
  /* End of Global Styling */
 
@@ -218,14 +234,6 @@ section hr {
     margin-right: .6rem;
 }
 
-.hero_wrapper .hero_img_wrapper {
-    max-width: 670px;
-}
-
-.hero_wrapper .hero_img_wrapper img {
-    max-width: 100%;
-    height: auto;
-}
 /* Overflow Section Styling */
 .overview_wrapper {
     display: flex;
@@ -285,15 +293,6 @@ section hr {
     justify-content: center;
 }
 
-.services_wrapper .services_img_wrapper {
-    max-width: 670px;
-}
-
-.services_wrapper .services_img_wrapper img {
-    max-width: 100%;
-    height: auto;
-}
-
 .services_cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -351,15 +350,6 @@ section hr {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-}
-
-.products_wrapper .products_img_wrapper {
-    max-width: 670px;
-}
-
-.products_wrapper .products_img_wrapper img {
-    max-width: 100%;
-    height: auto;
 }
 
 .products_cards .products_card {
@@ -539,15 +529,6 @@ section hr {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-}
-
-.contact_wrapper .contact_img_wrapper {
-    max-width: 670px;
-}
-
-.contact_wrapper .contact_img_wrapper img {
-    max-width: 100%;
-    height: auto;
 }
 
 .contact_wrapper .form_header {
