@@ -571,7 +571,7 @@ section hr {
 
 .contact_wrapper .contact_right form input, textarea {
     background: white;
-    border: none;
+    border: 1px solid lightgray;
     border-radius: 4px;
     box-shadow: var(--box-shadow);
     padding: .5rem .6rem;
